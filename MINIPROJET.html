@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
      <link rel="stylesheet" href="style.css">
-     <title>My Website</title>
+     <title>My Website</title>     
 </head>
 <body>
      <header>
           <a href="#" class="logo">Portfolio.</a>
           <nav class="navigation">
-               <a href="#services">Services</a>
-               <a href="#projects">Projects</a>
+               <a href="#home">Home</a>
+               <a href="#Services">Services</a>
+               <a href="#Projects">Projects</a>
                <a href="#contact">Contact</a>
           </nav>
      </header>
 
 
-     <section class="main">
+     <section class="main" id="home">
           <div>
-               <h2>Hello , I'm Mehdy<br><span>Future web developer</span></h2>
+               <h2>Hello , I'm Mehdy<br><span>Web developer </span></h2>
                <h3></h3>
                <a href="projects" class="main-btn">Download CV</a>
+               <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>                   
+               </div>
           </div>
-          
      </section>
-     
+
+     <section class="cards" id="Services">
+          <h2 class="title">Services</h2>
+          <div class="content">
+               <div class="card">
+                   <div class="icon"><i class="fa-solid fa-laptop-code"></i></i>
+               </div>
+               <div class="info">
+                    <h3>Web development</h3>
+                    <p>I create modern, user-friendly websites tailored to your unique needs</p>
+               </div>
+          </div> 
+     </section>
+
+     <section class="cards contact" id="contact">
+          <h2 class="title">Contact</h2>
+          <div class="content">
+               <div class="card">
+                   <div class="icon"><i class="fa-solid fa-phone"></i>
+               </div>
+               <div class="info">
+                    <h3>Phone</h3>
+                    <p>22222222</p>
+               </div>
+          </div> 
+          <div class="content">
+               <div class="card">
+                   <div class="icon"><i class="fa-solid fa-envelope"></i>
+               </div>
+               <div class="info">
+                    <h3>Email</h3>
+                    <p>Chihi.mehdy@esprit.com</p>
+               </div>
+          </div> 
+     </section>
+          
 </body>
 </html>
